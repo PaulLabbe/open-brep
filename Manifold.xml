@@ -1,0 +1,37 @@
+<Geometry>
+  <Vertex><Id>5</Id></Vertex>
+  <Vertex><Id>6</Id></Vertex>
+  <Vertex><Id>7</Id></Vertex>
+  <Vertex><Id>8</Id></Vertex>
+  <Edge><Id>10</Id><StartVertex><Id>5</Id></StartVertex><EndVertex><Id>6</Id></EndVertex></Edge>
+  <Edge><Id>11</Id><StartVertex><Id>6</Id></StartVertex><EndVertex><Id>7</Id></EndVertex></Edge>
+  <Edge><Id>12</Id><StartVertex><Id>7</Id></StartVertex><EndVertex><Id>8</Id></EndVertex></Edge>
+  <Edge><Id>13</Id><StartVertex><Id>8</Id></StartVertex><EndVertex><Id>5</Id></EndVertex></Edge>
+  <Face><Id>100</Id>
+    <Loop>
+      <BoundaryEdge><Id>10</Id></BoundaryEdge>
+      <BoundaryEdge><Id>11</Id></BoundaryEdge>
+      <BoundaryEdge><Id>12</Id></BoundaryEdge>
+      <BoundaryEdge><Id>13</Id></BoundaryEdge>
+    </Loop>
+  </Face>
+</Geometry>
+
+<Discretisation>
+  <name>Rotor</name>
+  <Geometry>geo</Geometry>
+  <Mesh>
+    <interpolant>LagrTrian03</interpolant>
+    <Points></Points>
+    <Connectivity></Connectivity>
+  </Mesh>
+</Discretisation>
+
+<intVector></intVector>
+<dblVector></dblVector>
+<valueTuple><dimDomain><dimImage>
+</valueTuple>
+<indexTuple>
+</indexTuple>
+
+
